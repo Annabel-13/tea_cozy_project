@@ -149,3 +149,23 @@ header{
     background-color: black;
     opacity: 1;
 }
+
+.address_item p {
+    font-weight: 700;
+    line-height: 2em;
+}
+
+/*contact block*/
+
+.contact_container {
+    text-align: center;
+    width: 100%;
+    height: 200px;
+}
+
+/*footer*/
+
+footer {
+    text-align: left;
+    margin-left: 20px;
+}
