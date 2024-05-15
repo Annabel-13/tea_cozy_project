@@ -8,6 +8,10 @@ body {
     text-align: center;
     /*z-index: 100;*/
 }
+
+body , h2 {
+    font-weight: 900;
+}
 /*header*/
 header{
     position: sticky;
@@ -41,6 +45,13 @@ header{
     list-style-type: none;
     width: 30%;
     text-decoration: underline;
+    font-weight: 700;
+}
+
+.menu_li:hover {
+    text-decoration: none;
+    color: lightgray;
+    cursor: pointer;
 }
 
 /*main container*/
@@ -66,12 +77,38 @@ header{
 /*our mission*/
 
 .mission_text {
-    width: 1200px;
-    height: 59px;
+    height: min-content;
     text-align: center;
     background-color: black;
+    margin: 0 auto;
+}
+
+.mission_style {
+    top: 50%; /* Positioning at the bottom */
+    width: 1200px;
     z-index: 2;
-    position: absolute;
-    bottom: 0; /* Positioning at the bottom */
     left: 0;
+    position: absolute;
+}
+
+/*tea of the month block*/
+.tea_of_month{
+    width: 1000px;
+    height: min-content;
+    position: relative;
+    margin: 0 auto;
+}
+
+.month_kinds{
+    position: absolute;
+    height: min-content;
+    display: flex;
+    width: 99%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.month_img {
+    height: 200px;
+    width: 300px;
 }
